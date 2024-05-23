@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@iconify-json/meteocons": "^1.1.4",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  },
+  "volta": {
+    "node": "20.13.1"
+  }
+}
