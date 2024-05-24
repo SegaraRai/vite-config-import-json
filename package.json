@@ -2,14 +2,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "prebuild": "envinfo --system --npmPackages '{vite,@vitejs/*,rollup}' --binaries --browsers"
   },
   "devDependencies": {
     "@iconify-json/meteocons": "^1.1.4",
+    "envinfo": "^7.13.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.11"
   },
-  "volta": {
-    "node": "20.13.1"
+  "engines": {
+    "node": "22.2.0"
   }
 }

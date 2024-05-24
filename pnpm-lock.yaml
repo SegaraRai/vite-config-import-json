@@ -11,6 +11,9 @@ importers:
       '@iconify-json/meteocons':
         specifier: ^1.1.4
         version: 1.1.4
+      envinfo:
+        specifier: ^7.13.0
+        version: 7.13.0
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
@@ -247,6 +250,11 @@ packages:
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
+  envinfo@7.13.0:
+    resolution: {integrity: sha512-cvcaMr7KqXVh4nyzGTVqTum+gAiL265x5jUWQIDLq//zOGbW+gSW/C+OWLleY/rs9Qole6AZLMXPbtIFQbqu+Q==}
+    engines: {node: '>=4'}
+    hasBin: true
+
   esbuild@0.20.2:
     resolution: {integrity: sha512-WdOOppmUNU+IbZ0PaDiTst80zjnrOkyJNHoKupIcVyU8Lvla3Ugx94VzkQ32Ijqd7UhHJy75gNWDMUekcrSJ6g==}
     engines: {node: '>=12'}
@@ -437,6 +445,8 @@ snapshots:
     optional: true
 
   '@types/estree@1.0.5': {}
+
+  envinfo@7.13.0: {}
 
   esbuild@0.20.2:
     optionalDependencies:
