@@ -9,7 +9,7 @@ permissions:
   contents: read
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,6 +26,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm i
+
+      - name: Dump environment info
+        run: pnpm env
 
       - name: Build
         run: pnpm build
