@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "env": "envinfo --system --npmPackages '{vite,@vitejs/*,rollup}' --binaries --browsers"
+    "dumpenv": "envinfo --system --npmPackages '{vite,@vitejs/*,rollup}' --binaries --browsers"
   },
   "devDependencies": {
     "@iconify-json/meteocons": "^1.1.4",

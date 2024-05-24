@@ -25,10 +25,10 @@ jobs:
           cache: pnpm
 
       - name: Install dependencies
-        run: pnpm i
+        run: pnpm i --frozen-lockfile
 
       - name: Dump environment info
-        run: pnpm env
+        run: pnpm dumpenv
 
       - name: Build
         run: pnpm build
